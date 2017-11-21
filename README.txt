@@ -1,1 +1,0 @@
-Just a bunch of small programs and exercises.
