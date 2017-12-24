@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>Sign In</h1>
+
+  <!-- Action is where the form will send the data -->
+  <!-- Method is the http method (GET/POST) -->
+  <!-- If you dont specify the methot the default is GET -->
+
+  <form action="https://www.wikipedia.org/">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="email" required>
+
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" placeholder="password" required>
+
+    <p>Gender</p>
+    <input name="gender" id="dog" type="radio">
+    <label for="dog">Dog</label>
+    <br>
+
+    <input name="gender" id="cat" type="radio">
+    <label for="cat">Cat</label>
+    <br>
+
+    <input name="gender" id="sub-marine" type="radio">
+    <label for="sub-marine">Sub-Marine</label>
+    <br>
+
+    <p>Mood</p>
+    <select name="mood">
+      <option value="Happy">:)</option>
+      <option value="Sad">:(</option>
+      <option value="OK">:|</option>
+    </select>
+    <br>
+
+    <textarea name="description" cols="90" rows="5"></textarea>
+    <br>
+
+    <input type="submit" value="Submmit!!!">
+  </form>
+  
+</body>
+</html>

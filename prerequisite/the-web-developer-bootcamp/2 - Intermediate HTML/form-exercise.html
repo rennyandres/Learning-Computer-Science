@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form exercise</title>
+</head>
+<body>
+  <h1>Register</h1>
+  <form action="https://www.wikipedia.org" method="GET">
+    <label for="first-name">First Name</label>
+    <input name="firstName" placeholder="first name" type="text" required>
+
+    <label for="last-name">Last Name</label>
+    <input name="lastName" placeholder="Last name" type="text" required>
+    <br>
+
+    <label for="male">Male</label>
+    <input name="gender" value="Male"   type="radio">
+    <label for="female">Female</label>
+    <input name="gender" value="Female" type="radio">
+    <label for="other">Other</label>
+    <input name="gender" value="Other"  type="radio">
+    <br>
+
+    <label for="email">Email</label>
+    <input name="email" placeholder="email" type="email" required>
+
+    <label for="password">Password</label>
+    <input name="password" placeholder="password" type="password" required minlength="5" maxlength="10">
+    <br>
+
+    <p>Birthday:</p>
+    <select name="month">
+      <option value="January">January</option>
+      <option value="February">February</option>
+      <option value="March">March</option>
+      <option value="April">April</option>
+      <option value="May">May</option>
+      <option value="June">June</option>
+      <option value="July">July</option>
+      <option value="August">August</option>
+    </select>
+
+    <select name="day">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+
+    <select name="year">
+      <option value="1990">1990</option>
+      <option value="1991">1991</option>
+      <option value="1992">1992</option>
+    </select>
+    <br>
+
+    <input type="checkbox" name="terms" value="true">
+    <label for="terms">I Agree To The Terms & Conditions</label>
+    <br>
+
+    <input type="submit">
+
+
+
+
+  </form>
+
+  
+</body>
+</html>
